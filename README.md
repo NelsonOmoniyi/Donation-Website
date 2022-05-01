@@ -1,4 +1,4 @@
-Read below to see how you can join an existing project or create your own.
+
 
 One rule of this community:
 We don't care if you break things. This is a playground and we encourage failing often. Use this as a practice ground and enjoy contributing to projects you create with your fellow students.

@@ -1,12 +1,26 @@
-#firstContainer {
-    border: 2px solid blue;
-    height: 20px;
-    background-color: blue;
-    padding: 0 15%;
-    font-size: 10px;
-    color: white;
+/* Style the navigation bar */
+
+#BrandLogo {
+    height: 50px;
 }
 
-#firstContainer a {
-    color: white;
+.navbar-light {
+    padding: 0 80px 0 80px;
+}
+
+.navbar-light li {
+    font-weight: 200;
+    font-family: "Roboto", Geneva, Tahoma, sans-serif;
+}
+
+.navbar-light li a:hover,
+.navbar-light li a:focus,
+.navbar-light li a:active {
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 4px solid rgb(167, 164, 164);
+}
+
+.navbar {
+    background-color: aqua;
 }

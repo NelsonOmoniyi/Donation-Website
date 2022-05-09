@@ -24,8 +24,7 @@
     <!-- Font awesome -->
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
-    <!-- Owl carousel -->
-    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+
 
     <!-- Template main Css -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -47,7 +46,7 @@
 
             <div class="navbar-main">
 
-                <div class="container-fluid">
+                <div class="container">
 
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -59,7 +58,9 @@
 
                   </button>
 
-                        <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="" style="height: 40px;"></a>
+                        <a class="navbar-brand" href="index.html">
+                            <h2 style="color: white; margin-left: 30px; margin-top: -7px;">Shullamite</h2>
+                        </a>
 
                     </div>
 
@@ -69,7 +70,10 @@
 
                             <li><a class="is-active" href="index.html">HOME</a></li>
                             <li><a href="about.html">ABOUT</a></li>
-                            <li class=""><a href="causes-single.html">CAUSES</a></li>
+                            <li class=""><a href="resume.html">PORTFOLIO</a></li>
+                            <li>
+                                <a href="donate.html">DONATE</a>
+                            </li>
                             <li><a href="gallery.html">GALLERY</a></li>
                             <li><a href="contact.html">CONTACT</a></li>
 
@@ -102,7 +106,7 @@
             <!-- <img src="assets/images/home-slider-3.jpg " alt="poor kids " style="width: 100%; margin-top: 0; height: 100%; z-index: -1000; "> -->
             <h2 class="bounceInDown animated slow " style="font-weight: bold;">Together we can improve their lives</h2>
             <h4 class="bounceInUp animated slow " style="font-weight: bold;"> So let's do it !</h4>
-            <a href="# " class="btn btn-lg btn-secondary hidden-xs bounceInUp animated " data-toggle="modal " data-target="#donateModal " style="border-radius: 10px;">DONATE NOW</a>
+            <a href="# " class="btn btn-lg btn-secondary bounceInUp animated " data-toggle="modal " data-target="#donateModal " id="JumButton">DONATE NOW</a>
 
         </div>
     </div>
@@ -122,15 +126,15 @@
                     <div class="about-us-col ">
 
                         <div class="col-icon-wrapper ">
-                            <img src="assets/images/icons/our-mission-icon.png " alt=" ">
+                            <img src="assets/images/our-mission-icon.png" alt=" ">
                         </div>
                         <h3 class="col-title ">our mission</h3>
                         <div class="col-details ">
 
                             <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
-
+                            <a href="about.html" class="btn btn-primary " style="border-radius: 10px;"> Read more </a>
                         </div>
-                        <a href="# " class="btn btn-primary " style="border-radius: 10px;"> Read more </a>
+
 
                     </div>
 
@@ -142,15 +146,15 @@
                     <div class="about-us-col ">
 
                         <div class="col-icon-wrapper ">
-                            <img src="assets/images/icons/make-donation-icon.png " alt=" ">
+                            <img src="assets/images/make-donation-icon.png" alt=" ">
                         </div>
                         <h3 class="col-title ">Make donations</h3>
                         <div class="col-details ">
 
-                            <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
-
+                            <p>Lorem ipsum dolor sit lectus ut eta esami vera dolor sit amet consect</p>
+                            <a href="donate.html" class="btn btn-primary " style="border-radius: 10px;"> Read more </a>
                         </div>
-                        <a href="# " class="btn btn-primary " style="border-radius: 10px;"> Read more </a>
+
 
                     </div>
 
@@ -162,15 +166,15 @@
                     <div class="about-us-col ">
 
                         <div class="col-icon-wrapper ">
-                            <img src="assets/images/icons/help-icon.png " alt=" ">
+                            <img src="assets/images/help-icon.png" alt=" ">
                         </div>
                         <h3 class="col-title ">Help & support</h3>
                         <div class="col-details ">
 
                             <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
-
+                            <a href="contact.html" class=" btn btn-primary " style="border-radius: 10px; "> Read more </a>
                         </div>
-                        <a href="# " class="btn btn-primary " style="border-radius: 10px;"> Read more </a>
+
 
                     </div>
 
@@ -182,15 +186,15 @@
                     <div class="about-us-col ">
 
                         <div class="col-icon-wrapper ">
-                            <img src="assets/images/icons/programs-icon.png " alt=" ">
+                            <img src="assets/images/programs-icon.png " alt=" ">
                         </div>
                         <h3 class="col-title ">our programs</h3>
                         <div class="col-details ">
 
                             <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
-
+                            <a href="about.html" class="btn btn-primary " style="border-radius: 10px; "> Read more </a>
                         </div>
-                        <a href="# " class="btn btn-primary " style="border-radius: 10px;"> Read more </a>
+
 
                     </div>
 
@@ -291,7 +295,7 @@
             <div class="container ">
 
                 <div class="row ">
-                    <div class="col-md-4 ">
+                    <div class="col-md-5 ">
 
                         <div class="footer-col ">
 
@@ -313,33 +317,10 @@
 
                     </div>
 
-                    <div class="col-md-4 ">
 
-                        <div class="footer-col ">
 
-                            <h4 class="footer-title ">LOCATION<span class="title-under "></span></h4>
 
-                            <div class="footer-content contact-map map" id="map">
-
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <script>
-                        let center = [4, 44.44];
-                        let map = tt.map({
-                            key: "kXDkWfgtDV7udzE0nMuq8MkTED0oAYMx",
-                            container: "map",
-                            center: center,
-                            zoom: 7,
-                        });
-                        map.on('load', () => {
-                            new tt.Marker().setLngLat(center).addTo(map);
-                        })
-                    </script>
-
-                    <div class="col-md-4 ">
+                    <div class="col-md-5 ">
 
                         <div class="footer-col ">
 
@@ -351,22 +332,22 @@
 
                                     <div class="footer-form ">
 
-                                        <form action="php/mail.php " class="ajax-form ">
+                                        <form action=" " class="ajax-form ">
 
                                             <div class="form-group ">
                                                 <input type="text " name="name " class="form-control " placeholder="Name " required>
                                             </div>
 
-                                            <div class="form-group ">
+                                            <div class=" form-group ">
                                                 <input type="email " name="email " class="form-control " placeholder="E-mail " required>
                                             </div>
 
-                                            <div class="form-group ">
+                                            <div class=" form-group ">
                                                 <textarea name="message " class="form-control " placeholder="Message " required></textarea>
                                             </div>
 
                                             <div class="form-group ">
-                                                <button type="submit " class="btn btn-submit pull-right ">Send message</button>
+                                                <button type="submit " name="submit "><a style="border-radius: 10px; " class="btn btn-submit pull-right " href="mailto:omoniyinelson6@gmail.com?subject=Feedback to the Shullamite Team ">Send me an email</a></button>
                                             </div>
 
                                         </form>

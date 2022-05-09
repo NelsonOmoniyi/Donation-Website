@@ -12,7 +12,7 @@
 ========================================================================== */
 
 body {
-    font-family: "Open sans", sans-serif;
+    font-family: sans-serif;
     color: #0d0d0e;
 }
 
@@ -20,7 +20,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: "Dosis", sans-serif;
+    font-family: sans-serif;
 }
 
 a {
@@ -62,56 +62,11 @@ a:active {
     border-bottom: 2px solid #fff;
 }
 
-.navbar-main .submenu {
-    position: absolute;
-    list-style: none;
-    background: #1f76bd;
-    padding: 0;
-    width: 150px;
-    left: -35px;
-    visibility: hidden;
-    top: 85px;
-    -moz-transition: all, 0.05s;
-    -o-transition: all, 0.05s;
-    -webkit-transition: all, 0.05s;
-    transition: all, 0.05s;
-}
-
-.navbar-main .submenu li {
-    border-top: 1px solid #185b91;
-}
-
-.navbar-main .submenu li:hover {
-    background: #185b91;
-    -moz-transition: all, 0.3s;
-    -o-transition: all, 0.3s;
-    -webkit-transition: all, 0.3s;
-    transition: all, 0.3s;
-}
-
-.navbar-main .submenu li a {
-    width: 100%;
-    border-bottom: none;
-    text-decoration: none;
-    padding: 5px 25px;
-    display: block;
-    font-size: 16px;
-}
-
 .navbar-main li a {
-    font-family: "Dosis", sans-serif;
+    font-family: sans-serif;
     font-size: 18px;
     padding: 20px 15px;
     border-bottom: 2px solid transparent;
-}
-
-.navbar-main li:hover .submenu {
-    top: 62px;
-    visibility: visible;
-    -moz-transition: all, 0.25s;
-    -o-transition: all, 0.25s;
-    -webkit-transition: all, 0.25s;
-    transition: all, 0.25s;
 }
 
 .navbar-main .icon-bar {
@@ -124,6 +79,17 @@ a:active {
 
 .section-home {
     margin: 30px 0;
+}
+
+#JumButton {
+    border-radius: 10px;
+    background-color: #04f13f49;
+}
+
+#JumButton:hover {
+    border-radius: 15px;
+    background-color: #04f140e5;
+    color: #fff;
 }
 
 
@@ -343,31 +309,6 @@ a:active {
 }
 
 
-/* Pages 
-================================= */
-
-.page-heading {
-    background: url('../images/heading-bg.jpg?1428795369') no-repeat center;
-    background-size: cover;
-    min-height: 190px;
-    color: #fff;
-    padding: 25px 15px;
-    margin-bottom: 50px;
-}
-
-.page-heading .title-under {
-    background: #fff;
-}
-
-.page-description {
-    font-size: 18px;
-}
-
-.main-container {
-    margin-bottom: 50px;
-}
-
-
 /* Tabs
 ================================= */
 
@@ -395,41 +336,6 @@ a:active {
 .nav>li>a:focus {
     background: #115c9b;
     color: #fff;
-}
-
-
-/* Ow carousel
-================================= */
-
-.owl-next,
-.owl-prev {
-    width: 32px;
-    height: 32px;
-    padding-top: 5px;
-    border: 2px solid;
-    text-align: center;
-    border-radius: 50%;
-    left: 0;
-    position: absolute;
-    top: 50%;
-    margin-top: -16px;
-    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=75);
-    opacity: 0.75;
-    -moz-transition: all, 0.5s;
-    -o-transition: all, 0.5s;
-    -webkit-transition: all, 0.5s;
-    transition: all, 0.5s;
-}
-
-.owl-next:hover,
-.owl-prev:hover {
-    filter: progid: DXImageTransform.Microsoft.Alpha(enabled=false);
-    opacity: 1;
-}
-
-.owl-next {
-    left: auto;
-    right: 0;
 }
 
 

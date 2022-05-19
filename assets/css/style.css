@@ -686,3 +686,15 @@ a:active {
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.contain {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}

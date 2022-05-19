@@ -680,3 +680,9 @@ a:active {
     -webkit-animation-name: zoomIn;
     animation-name: zoomIn;
 }
+
+.label {
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
